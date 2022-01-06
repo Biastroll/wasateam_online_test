@@ -31,10 +31,6 @@ export default {
   props: {
     typeState: String
   },
-  methods: {
-  },
-  computed: {
-  }
 }
 </script>
 

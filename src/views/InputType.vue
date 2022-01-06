@@ -27,9 +27,6 @@ export default {
 </script>
 
 <style scope>
-/* #app {
-  background-color: #aaa;
-} */
 .type-select {
   padding: 20px;
 }

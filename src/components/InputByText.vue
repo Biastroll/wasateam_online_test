@@ -11,11 +11,6 @@ export default {
         textContent: ''
       }
   },
-  props: {
-    // typeState: String
-  },
-  methods: {
-  }
 }
 </script>
 

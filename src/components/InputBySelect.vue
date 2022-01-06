@@ -16,12 +16,6 @@ export default {
           textOption: ''
       }
   },
-  props: {
-    // inputType: String,
-    // typeState: String
-  },
-  methods: {
-  }
 }
 </script>
 

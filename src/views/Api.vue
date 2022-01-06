@@ -19,17 +19,6 @@ export default {
           btn: false
       }
   },
-  props: {
-  },
-  mounted(){
-  },
-  methods: {
-    // btnClick() {
-    //   let btn = !btn;
-    //     console.log(btn);
-    //   return btn
-    // },
-  },
   computed: {
     imortApi() {
       return jsonApi.map((item) => {
@@ -54,12 +43,12 @@ export default {
     ul {
         margin: auto;
         margin-top: 5px;
-        padding-inline: 5rem;
+        padding-inline: 30vw;
         text-align: start;
     }
     li {
         list-style: none;
-        width: 50%;
-        margin: auto;
+        width: 70%;
+        margin-inline: auto;
     }
 </style>
