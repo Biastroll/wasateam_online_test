@@ -1,24 +1,15 @@
-# wasateam_online_test
+# 山葵組設計-面試前線上測試
 
-## Project setup
+### 已確認目前不會的項目
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+scss撰寫內容樣式
+以切換prop的方式，改變對應的輸入類型
+設定頁面description
+設定Global參數，用於切換頁面的顏色集主題
 ```
 
-### Compiles and minifies for production
+### 架構想法
 ```
-npm run build
+把每一個較大的功能主題(切換輸入類型、串接列表資料Api)配置到不同的頁面，再把所需要的功能(component)配置到該頁面下。
+內容樣式部分，各個功能主題分開以scope方式分別套用，整體通用的樣式則放置在主體(App.vue)之下。
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
